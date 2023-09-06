@@ -1,0 +1,61 @@
+ const DataEl=data.map(App =>{
+        return<Content Name={App.Name} Age={App.Age} image={App.image} About={App.About} />
+    })
+    return(
+<div>
+    {DataEl}
+</div>
+    )
+}
+
+
+
+export default[
+    {
+        image:"me.jpg",
+        Name:"Armiyau",
+        Age:17,
+        About:"i am from nigeria ilorin kwara state to be precisei am from nigeria ilorin kwara state to be precise"
+    },  
+    
+    {
+        image:"me.jpg",
+        Name:"Armiyau",
+        Age:17,
+        About:"i am from nigeria ilorin kwara state to be precisei am from nigeria ilorin kwara state to be precise"
+    },   
+     {
+        image:"me.jpg",
+        Name:"Armiyau",
+        Age:17,
+        About:"i am from nigeria ilorin kwara state to be precisei am from nigeria ilorin kwara state to be precise"
+    }
+]
+   <div  >
+    <img src={`${props.image}`} className='images' ></img>
+    </div>
+   <div className='text'>
+    <h3  >{props.Name}</h3>
+        <h3>{props.Age}</h3>
+        <p>{props.About}</p>
+        </div>
+
+
+
+
+        let url
+        function getMeme(){
+          const memesArr=data
+          const num=Math.floor(Math.random()*memesArr.length)
+          url=memesArr[num].url
+        }
+        <div>
+            <main>
+              <div className='form'>
+                <input type='text' placeholder='Top text' className='form--input' ></input>
+                <input type='text' placeholder='bottom text' className='form--input' ></input>
+              <button className='form--button' >Click</button>
+              </div>
+            </main>
+            
+                </div>
