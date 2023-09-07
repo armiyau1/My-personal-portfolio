@@ -27,7 +27,7 @@ function Navbar() {
          I make it my mission to keep pace with the <strong> latest advancements </strong> in frontend development
          ,ensuring that every project i undertake reflects the cutting edge of web technology</p>
          <br></br>
-         <p> When i am not on my computer, i am usually playing football or having conversation with friends or reading</p>
+         <p> When i am not on my computer, studying other people code or reading</p>
         
 </section>
 

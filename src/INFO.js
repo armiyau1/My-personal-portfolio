@@ -54,6 +54,7 @@ text:""
      onChange={changehandle} placeholder='message' ></textarea>
     <button type='submit' value="submit" >Send Message</button>
    </form>
+   <footer> &copy; Built with <strong>React</strong>  and coded in visual studio code by yours truly. The code is made available in my github. </footer>
 
     </div>
   )
