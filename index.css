@@ -16,7 +16,7 @@ body{
     line-height: 30px;
     max-width: 300px;
     color: #ebe2e2;
-
+    animation: fade 5s ease-in-out;
 
 }
 .logo{
@@ -171,6 +171,18 @@ color: #968a8a;
 .form button:hover{
     background-color: #222121;
 }
+
+footer{
+    margin: 20px;
+
+    text-align: center;
+    color: #e3e0e0;
+}
+footer strong{
+    color: #fff;
+}
+
+
 @media  (max-width:500px) {
 
 .todo{
