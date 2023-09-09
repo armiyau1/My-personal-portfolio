@@ -189,7 +189,7 @@ margin-left: auto;
 .btn4{
 margin-right: 10px;
 padding: 2.5px;
-color: white;
+color: #fff;
     background-color: #151020;
     border: none;
 border-radius: 5px;
@@ -199,7 +199,6 @@ cursor: pointer;
 .btn4 a{
     text-decoration: none;
     color: white;
-    font-size: 20px;
     
    }
 
