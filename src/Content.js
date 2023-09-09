@@ -6,7 +6,7 @@ function Content(props) {
   return (
     <div>
 
-<section className='project-sec' >
+<section  id='project' className='project-sec' >
 <h1>{props.Head}</h1>
 <div className='todo' >
     <img className='image' src={props.image}width="50%" height="50%" ></img>
@@ -26,7 +26,7 @@ function Content(props) {
 </section>
 <h3 className='github' >  {props.github} </h3>
 <section className='skills' >
-<p className='skill' >{props.SKILLS}</p>
+<p id='skills' className='skill' >{props.SKILLS}</p>
 
 
 </section>

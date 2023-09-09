@@ -5,7 +5,8 @@ margin: 0;
 
 }
 body{
-    background-color: #333;
+      background-color: #151020;
+
 
 }
 .Head{
@@ -16,7 +17,6 @@ body{
     line-height: 30px;
     max-width: 300px;
     color: #ebe2e2;
-    animation: fade 5s ease-in-out;
 
 }
 .logo{
@@ -104,7 +104,6 @@ background-color: #222121;
  }
  .skills{
     padding: 20px;
-    max-width: 400px;
 display: block;
     justify-content: center;
 
@@ -181,16 +180,48 @@ footer{
 footer strong{
     color: #fff;
 }
-
-
-@media  (max-width:500px) {
-
-.todo{
-    display: block;
-    margin-left: 10px;
-    max-width: 400px;
+.headers{
+    display: flex;
 }
-.todo img{
-    width: 100%;
+.button4  {
+float: right;
+margin-left: auto;
 }
+.btn4{
+margin-right: 10px;
+padding: 2.5px;
+color: white;
+    background-color: #151020;
+border: none;
+border-radius: 5px;
+
+}
+
+.btn4 a{
+    text-decoration: none;
+    color: #b9b0b0;
+   }
+
+
+
+   @media  (max-width:500px) {
+    
+    .headers{
+        display: block;
+    }
+    .button4{
+        float: left;
+
+        margin-right: auto;
+
+    }
+
+    .todo{
+        display: block;
+        margin-left: 10px;
+        max-width: 400px;
+    }
+    .todo img{
+        width: 100%;
+    }
 }

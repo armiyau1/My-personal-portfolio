@@ -29,7 +29,7 @@ text:""
         })
     }
   return (
-    <div className='contact' >
+    <div id='contact'  className='contact' >
         <div className='c-header' >
 <h1>Contact me</h1>
 <u><h4>Get in touch</h4></u>

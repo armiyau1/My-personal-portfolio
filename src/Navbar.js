@@ -10,17 +10,26 @@ function Navbar() {
   const twitter=`${twitter1}`
   const Github1="https://github.com/armiyau1"
   const Github=`${Github1}`
+  
   return (
-    <div>
-      <header className='Head' >
+    <div>  <header className='Head' >
+        <div className='headers' >
         <h1 className='logo' >AbdulHamid Armiyau</h1>
+        <div className='button4' >
+        <button className='btn4' ><a href='#project'>Project</a> </button>
+        <button className='btn4' ><a href="#skills">Skills</a>  </button>
+        <button className='btn4' > <a href='#contact'>Contact</a> </button>
+        </div>
+        <br></br>
+        </div>
+
         <h3>Web developer</h3>
 <p>Dedicated,Motivated and aspiring web developer with a passion for Front-end development. </p>
  <button className='button' ><a href={mailtoLink}>Hire Me</a></button>       
      <button className='button'><a href={twitter}>Twitter</a></button> 
      <button className='button'><a href={Github}>Github</a></button> 
 </header>
-<section className='About-sec' >
+<section id="about" className='About-sec' >
 <h3 className='About' > About </h3>
     <p>I am a dedicated web developer with a fervor for <strong>frontend development </strong> and a 
         commitment to staying at the <strong>forefront</strong> of technology trends. I am not just a web developer; I am a tech enthusiast.
