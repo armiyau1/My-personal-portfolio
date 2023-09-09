@@ -15,7 +15,6 @@ body{
     color: #fff;
     padding: 20px;
     line-height: 30px;
-    max-width: 300px;
     color: #ebe2e2;
 
 }
@@ -192,14 +191,16 @@ margin-right: 10px;
 padding: 2.5px;
 color: white;
     background-color: #151020;
-border: none;
+    border: none;
 border-radius: 5px;
-
+cursor: pointer;
 }
 
 .btn4 a{
     text-decoration: none;
-    color: #b9b0b0;
+    color: white;
+    font-size: 20px;
+    
    }
 
 
