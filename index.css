@@ -72,8 +72,8 @@ background-color: #222121;
 .todo{
     display: flex;
     justify-content: center;
-
  margin-top: 20px;
+ background-color: #160f24;
 }
 .para{
     margin-left: 30px;
@@ -221,6 +221,6 @@ cursor: pointer;
         max-width: 400px;
     }
     .todo img{
-        width: 100%;
+        width: 50%;
     }
 }
