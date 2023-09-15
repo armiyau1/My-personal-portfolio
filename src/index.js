@@ -23,7 +23,24 @@ function App(){
     Paragraph="I have created a handy  todo list app that helps you stay organized and on top of your tasks
     . it is designed for simplicity and efficiency, making it easier than ever to manage your daily agenda. "
     
-    /> <Content 
+    /> 
+     <Content 
+    image="my clock.jpg"
+    todo="https://github.com/armiyau1"
+    Heading="Built a digital clock but which i pushed the code to my GITHUB"
+    Paragraph="Creating this digital clock project was a rewarding experience that showcased my abilities in web development and user interface design. It not only serves as a functional timekeeping tool but also demonstrates my commitment
+     to delivering user-friendly and aesthetically pleasing digital solutions."
+    />
+    < Content 
+    image="my port.jpg"
+    todo="
+    https://armiyau1.github.io/My-personal-portfolio/
+    "
+    Heading="Personal website"
+    Paragraph="i created my personal website so as to showcase my skills
+    and projects to make it easier for people to know about me and what i do."
+    />
+    <Content 
     image="Portfolio.jpg"
     todo="https://armiyau1.github.io/Portfolio_/"
     Heading="Built A  Personal website:  CHEACK ➜"
@@ -46,6 +63,7 @@ function App(){
     github="Most of my projects are in my github account "
 
     />
+   
     <INFO />
 </div>
     )

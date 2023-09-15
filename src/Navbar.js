@@ -21,6 +21,7 @@ function Navbar() {
         <button className='btn4' > <a href='#contact'>Contact</a> </button>
         </div>
         <br></br>
+        <br></br>
         </div>
 
         <h3>Web developer</h3>
